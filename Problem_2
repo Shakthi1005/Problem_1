@@ -1,0 +1,8 @@
+#problem_2
+n = input("enter some words:").split()
+result = []
+
+for x in n:
+    result.append(x[::-1])
+
+print(result)
