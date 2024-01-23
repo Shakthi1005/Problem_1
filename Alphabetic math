@@ -1,0 +1,39 @@
+inputword=input("enter the  word:").replace(" ","")
+counta=inputword.count('a')
+countb=inputword.count('b')
+countc=inputword.count('c')
+countd=inputword.count('d')
+counte=inputword.count('e')
+countf= inputword.count('f')
+countg = inputword.count('g')
+counth = inputword.count('h')
+counti = inputword.count('i')
+countj = inputword.count('j')
+countk = inputword.count('k')
+countl = inputword.count('l')
+countm = inputword.count('m')
+countn = inputword.count('n')
+counto = inputword.count('o')
+countp = inputword.count('p')
+countq = inputword.count('q')
+countr = inputword.count('r')
+counts = inputword.count('s')
+countt = inputword.count('t')
+countu = inputword.count('u')
+countv = inputword.count('v')
+countw = inputword.count('w')
+countx = inputword.count('x')
+county = inputword.count('y')
+countz = inputword.count('z')
+totalalpha=counta+countb+countc+countd+counte+countf+countg+counth+counti +countj+countk +countl +countm+countn +counto +countp +countq+countr +counts+countt+countu+countv +countw +countx+county+countz
+alphavalue ={
+  'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5, 'f': 6, 'g': 7, 'h': 8, 'i': 9, 'j': 10,
+  'k': 11, 'l': 12, 'm': 13, 'n': 14, 'o': 15, 'p': 16, 'q': 17, 'r': 18, 's': 19,
+  't': 20, 'u': 21, 'v': 22, 'w': 23, 'x': 24, 'y': 25, 'z': 26}
+
+
+askeyvalue = sum(alphavalue[char] for char in inputword)
+if(askeyvalue>totalalpha):
+    print("good word")
+else:
+    print("bad word")
