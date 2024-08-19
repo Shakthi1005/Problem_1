@@ -1,0 +1,851 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    color: rgb(255, 255, 255);
+    background-image: url("images/dark-gradient-quwlcn6vowfuwug1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.logo {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 4px;
+  }
+  
+  
+
+.home-text h1 {
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .btn{
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .home-text h2 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  .cta{
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+.s-box p {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  
+}
+
+#fontlux {
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+#fontabout{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+body {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.copyright h4{
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background:black;
+    border-radius: 4px;
+}
+
+
+.logo{
+    color: rgb(255, 136, 0);
+    
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    color: rgb(250, 248, 248);
+    font-size: 1.1rem;
+    padding: 5px 20px;
+    font-weight: 500;
+}
+.navbar a:hover{
+    color: orange;
+    transition: 0.3s;
+    background-color: #f0f0f1;
+    border-radius: 10px;
+}
+#fill{
+    fill: orange;
+}
+
+
+
+#menu-icon{
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+    fill:#e8ecf1;
+    
+}
+section{
+    padding: 70px 16%;
+    width: 100%;
+}
+
+.home{
+    width: 100%;
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+    background-image:url(images/IMG_20240813_175758.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    
+}
+
+.home-text h1{
+    font-size: 2.2rem;
+    color: rgb(255, 45, 45);
+    margin-top: -20px;
+    width: 100%;
+    
+   
+}
+.home-text h2{
+    font-size: 1.5rem;
+    margin: 2rem 0 2rem;
+    width: 100%;
+    color: #000000;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background:rgb(255, 67, 0) ;
+    color: #000000;
+    border-radius: 0.5rem;
+}
+.btn:hover{
+    transform:scale(1.2) translateY(10px);
+    transition: 0.4s;
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-gap:1.5rem;
+    align-items: center;
+}
+.about-img img{
+    max-width: 100%;
+    width: 450px;
+    height: 690px;
+    border-radius: 30px;
+}
+.about-text span{
+   
+    font-size: 1rem;
+    
+    
+}
+.about-text h2{
+    margin-top: 8%;
+    font-weight: 500;
+    
+}
+.about-text h4{
+    margin: 0.8rem 0 1.8rem;
+    line-height:1.7;
+   width: 100%;
+   font-weight: 500;
+}
+
+.heading{
+    text-align: center;
+}
+.heading span{
+    color: orange;
+    font-weight: 600;
+}
+.heading h3{
+    font-size: 30px;
+    text-shadow:4px 4px 4px #30252b81;
+}
+.services span{
+    font-size: 30px;
+}
+.services h3{
+    font-weight: 600;
+}
+.menu-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,auto));
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+.box{
+    position: relative;
+    margin-top:3rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 20px;
+    border-radius: 20px;
+}
+.box-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+.box-img{
+    width: 220px;
+    height: 220px;
+}
+.box h2{
+    font-size: 1.3rem;
+    color: rgb(189, 134, 134);
+}
+
+.box span{
+    color: olivedrab;
+    font-weight: 600;
+
+}
+.image .bx{
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    padding: 7px 10px;
+    border-radius: 0 0.5rem 0 0.5rem;
+}
+.service-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,auto));
+    grid-gap: 1.6rem;
+    margin-top: 4rem;
+}
+.s-box{
+    text-align: center;
+    padding: 20px 30px;
+    
+}
+.s-box img{
+    width: 90px;
+    
+   
+}
+.s-box img:hover{
+    
+    transform:translateY(-15px);
+    transition: .4s;
+
+}
+.s-box h3{
+    margin: 4px 0 10px;
+    color: orange;
+    font-size: 1.2rem;
+}
+.s-box p{
+    margin-top: 14px;
+    line-height: 1.9;
+    font-weight: bold;
+}
+
+.cta{
+    background:linear-gradient(to right,#ffdde1,#b92d40);
+    
+    padding: 50px ;
+    text-align: center;
+    width: 86%;
+    text-transform: capitalize;
+    margin: 100px auto;
+    border-radius: 190px;
+}
+.cta h2{
+    font-size: 1.7rem;
+    color:rgb(0, 0, 0);
+    margin-bottom: 30px;
+    line-height: 50px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer{
+    padding: 10px 0;
+}
+.col{
+    width: 25%;
+}
+.col h4{
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 25px;
+    position: relative;
+}
+.col h4::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 60px;
+    left: 0;
+    bottom: -8px;
+    background: orange;
+}
+.col ul li:not(:last-child){
+    margin-bottom: 18px;
+}
+.col ul li a{
+    color: #ffffff;
+    font-size: 1.1rem;
+    display: block;
+    text-transform: capitalize;
+    transition: .4s;
+}
+.col ul li a:hover{
+    color: #e10b0b;
+    transform: translateX(-12px);
+}
+.col .social{
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col .social a{
+    height: 40px;
+    width: 40px;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    transition: .4s;
+    
+}
+.col .social .blue a{
+    
+    background: rgb(249, 246, 246);
+    fill:rgb(0, 70, 161);
+
+
+}
+.col .social .red a{
+    
+    background: rgb(249, 246, 246);
+    fill:rgb(255, 0, 0);
+
+}
+.col .social .insta a{
+    
+    background: rgb(249, 246, 246);
+    fill:rgb(255, 64, 0);
+    
+
+}
+.col .social .insta a:hover{
+    transform: scale(1.8);
+    background: #000000;
+    fill:rgb(255, 65, 1);
+
+
+}
+.col .social .blue a:hover{
+    transform: scale(1.8);
+    background: #000000;
+    fill:rgb(0, 70, 161);
+
+
+}
+.col .social .red a:hover{
+    transform: scale(1.8);
+    background: #000000;
+    fill:rgb(255, 0, 0);
+
+}
+
+.copyright h4{
+    padding: 6px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #e3d6d6;
+    background-color: #000000;
+}
+
+/* Container for the sliding animation */
+.slide-wrapper {
+    width: 100%; /* Fit viewport width */
+    overflow: hidden; /* Hide overflowing content */
+    position: relative; /* Positioning context for animation */
+}
+
+/* Figure containing slides */
+figure {
+    display: flex; /* Align slides horizontally */
+    width: 400%; /* 4 slides, each 25% of the container width */
+    height: 350px; /* Match height of slides */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    position: relative; /* Positioning context for animation */
+    animation: slide 12s linear infinite; /* Faster animation, adjust duration as needed */
+}
+
+/* Each slide */
+.slide {
+    flex: 0 0 25%; /* Each slide takes 25% of the container width */
+    height: 100%; /* Full height of the figure */
+}
+
+/* Image styling */
+.slide img {
+    display: block; /* Remove default inline spacing */
+    width: 100%; /* Scale image to fit slide */
+    height: 100%; /* Full height of the slide */
+     /* Maintain aspect ratio */
+}
+
+
+@keyframes slide {
+    0%{
+        left: 0;
+    }
+    10%{
+        left: 0;
+    }
+    20%{
+        left:-100%;
+    }
+    30%{
+        left: -100%;
+    }
+    40%{
+        left: -200%;
+    }
+    50%{
+        left: -200%;
+    }
+    55%{
+        left: -300%;
+    }
+    65%{
+        left: -300%;
+    }
+    66%{
+        left: -200%;
+    }
+    74%{
+        left: -200%;
+    }
+    75%{
+        left: -100%;
+    }
+    85%{
+        left: -100%;
+    }
+    90%{
+        left: 0;
+    }
+    1000%{
+        left: 0;
+    }
+}
+
+/*   slider super*/
+.container {
+    margin: 30px; /* Adjust margin for smaller screens */
+}
+
+.wrapper {
+    margin: 20px; /* Adjust margin for smaller screens */
+}
+
+.card_area {
+    display: flex; /* Align cards horizontally */
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    gap: 15px; /* Reduce space between cards on smaller screens */
+    justify-content: center; /* Center cards horizontally */
+    padding: 10px; /* Adjust padding around the card area */
+}
+
+/* Individual card styling */
+.card {
+    position: relative; /* Position context for overlay */
+    width: 100%; /* Full width on smaller screens */
+    max-width: 320px; /* Limit maximum width of cards */
+    height: 320px; /* Adjust height for smaller screens */
+    overflow: hidden; /* Hide content that overflows */
+    border-radius: 10px; /* Rounded corners for cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+/* Card image styling */
+.card img {
+    width: 100%; /* Ensure image fills card width */
+    height: 100%; /* Ensure image fills card height */
+    object-fit: cover; /* Maintain image aspect ratio */
+    transition: opacity 0.3s ease; /* Smooth fade transition */
+}
+
+/* Overlay styling */
+.overlay {
+    position: absolute; /* Positioning overlay relative to the card */
+    bottom: -100%; /* Initially hide the overlay below the card */
+    left: 0;
+    width: 100%; /* Full width of the card */
+    height: 100%; /* Full height of the card */
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    color: white; /* Text color */
+    display: flex; /* Flex container for center alignment */
+    flex-direction: column; /* Stack text and button vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    text-align: center; /* Center text */
+    padding: 10px; /* Adjust padding inside overlay */
+    transition: bottom 0.5s ease; /* Animate the bottom property */
+}
+
+.overlay p {
+    margin-top: 5px; /* Reduce top margin for smaller screens */
+}
+
+/* Show overlay on hover */
+.card:hover .overlay {
+    bottom: 0; /* Slide overlay up to the top of the card */
+}
+
+/* Card hover effects */
+.card:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+/* Button styling */
+button {
+    margin-top: 10px; /* Adjust top margin */
+    background-color: #000000; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    padding: 8px 16px; /* Adjust padding */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 14px; /* Adjust font size */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #ffffff; /* Light background on hover */
+    color: #000000; /* Darker text color on hover */
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+    .card_area {
+        gap: 10px; /* Reduce gap between cards */
+        padding: 5px; /* Reduce padding around card area */
+    }
+
+    .card {
+        width: 100%; /* Full width of card container */
+        max-width: 100%; /* Remove maximum width */
+        height: auto; /* Auto height to maintain aspect ratio */
+    }
+
+    .overlay {
+        padding: 10px; /* Adjust padding inside overlay */
+    }
+
+    button {
+        font-size: 14px; /* Adjust button font size */
+        padding: 8px 12px; /* Adjust button padding */
+    }
+}
+
+/*zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz*/
+.menu{
+    margin-top: -4%;
+}
+.centercontact{
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    overflow: hidden;
+    margin-top: -1em;
+    
+}
+.productcontainer {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.products{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+   
+}
+.product{
+    position: relative;
+    background-color: #f0f0f1;
+    width: 230px;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 10px 60px;
+    border-radius: 10px;
+    transition: .3s;
+    overflow: hidden;
+}
+.product:hover{
+    transform: translateY(-15px);
+    box-shadow: 10px 5px 10px rgba(241, 239, 239, 0.892);}
+.image {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.nameprice{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nameprice h4{
+    font-size: 1em;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+}
+.nameprice span{
+    font-size: 1.3em;
+    color:green;
+}
+.product p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+.stars svg{
+    font-size: 1.3em;
+    color:orange;
+}
+.fullstar{
+    width: 22px;
+    height:22px;
+    fill: orange;
+}
+.fullstar:hover{
+   
+    fill: #093c00;
+}
+.buy{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.buy button{
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: none;
+    background-color:black;
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: .5s;
+}
+.buy button:hover{
+    transform: scale(1.1);
+}
+/* Media Query for Small Screens */
+
+@media (max-width:1560px) {
+    header{
+        padding: 15px 40px;
+    }
+}
+@media (max-width:1140px) {
+    section{
+        padding: 50px 8%;
+    }
+   
+    header .navbar{
+        position: absolute;
+        top: -440px;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color:#2c0c28;
+        z-index: 1000;
+        transition: .4s;
+    }
+    header .navbar.active{
+        top: 70px;
+    }
+    .navbar a{
+        padding: 1.5rem;
+        display: block;
+    }
+    .col{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    
+}
+@media (max-width:720px) {
+    .logo {
+        font-weight:300;
+    }
+      
+    header{
+        padding: 10px 16px;
+        position: relative;
+    }
+    .home{
+        grid-template-columns: 1fr;
+        text-align:center;
+        background-position:center;
+    }
+    .home-text{
+        margin-top: 25%;
+    }
+    .home-text h1{
+        font-size: 1.5rem;
+        text-align:center;
+        width: 100%;
+       
+    }
+    
+    .home-text h2{
+        font-size: 0.9rem;
+        text-align:center;
+        
+       
+    }
+    .about{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .about-img{
+        order: 2;
+    }
+    section{
+        padding: 100px 7%;
+    }
+    .heading h3{
+        font-size: 20px; 
+    }
+    .heading h1{
+        font-size: 22px; 
+        font-weight: 600;
+    }
+    .container h1{
+        font-size: 25px; 
+    }
+    
+    .cta{
+        background:linear-gradient(#ffdde1,#b92d40);}
+    
+    figure{
+        height: 200px;
+    }
+    .heading{
+        margin-top: -19%;
+    }
+    .centercontact{
+        margin-top: -30%;
+    }
+    #menu-icon{
+            display: block;
+            fill: #f0f0f1;
+            position: relative;
+           top: -2px;
+            right: -8px;
+                        
+            
+            
+       
+            
+        }
+}
+@media (max-width:575px) {
+    .col{
+        width: 100%;
+    }
+    #menu-icon{
+        fill: #f0f0f1;
+        
+    }
+    
+}
